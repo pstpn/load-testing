@@ -1,0 +1,12 @@
+app:
+  name: 'sberhl'
+  version: 'v0.1'
+
+logger:
+  level: 'info'
+  file: 'out.log'
+
+worker:
+  url: 'http://193.168.227.93'
+  timeout: 10m
+  threads: 5
